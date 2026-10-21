@@ -1,0 +1,32 @@
+{
+  "entity": {
+    "sensor": {
+      "power_source": {
+        "default": "mdi:transmission-tower",
+        "state": {
+          "solar": "mdi:solar-power",
+          "grid": "mdi:transmission-tower",
+          "battery": "mdi:battery",
+          "idle": "mdi:power-sleep"
+        }
+      },
+      "battery_state": {
+        "default": "mdi:battery-unknown",
+        "state": {
+          "charging": "mdi:battery-arrow-up",
+          "discharging": "mdi:battery-arrow-down",
+          "idle": "mdi:battery-clock"
+        }
+      },
+      "connection_status": {
+        "default": "mdi:cloud-question-outline",
+        "state": {
+          "normal": "mdi:cloud-check-outline",
+          "partial_offline": "mdi:cloud-alert-outline",
+          "all_offline": "mdi:cloud-off-outline",
+          "no_device": "mdi:power-plug-off-outline"
+        }
+      }
+    }
+  }
+}

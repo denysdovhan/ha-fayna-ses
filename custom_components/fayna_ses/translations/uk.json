@@ -1,0 +1,91 @@
+{
+  "title": "Файна СЕС",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Підключення електростанції",
+        "description": "Введіть посилання на публічну сторінку вашої електростанції у Файна СЕС.",
+        "data": {
+          "dashboard_url": "Посилання на сторінку електростанції"
+        },
+        "data_description": {
+          "dashboard_url": "Посилання у форматі `https://fayna-ses.funs.net.ua/s/<станція>`."
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Введіть дійсне посилання на сторінку електростанції Файна СЕС.",
+      "cannot_connect": "Не вдалося завантажити дані електростанції. Перевірте посилання та спробуйте ще раз."
+    },
+    "abort": {
+      "already_configured": "Цю електростанцію вже налаштовано."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "connection_status": {
+        "name": "Стан зв’язку",
+        "state": {
+          "normal": "На зв’язку",
+          "partial_offline": "Частково офлайн",
+          "all_offline": "Офлайн",
+          "no_device": "Немає пристрою"
+        }
+      },
+      "battery_level": {
+        "name": "Рівень акумулятора"
+      },
+      "battery_state": {
+        "name": "Стан акумулятора",
+        "state": {
+          "charging": "Заряджається",
+          "discharging": "Розряджається",
+          "idle": "Очікування"
+        }
+      },
+      "grid_power": {
+        "name": "Потужність з мережі"
+      },
+      "battery_power": {
+        "name": "Потужність акумулятора"
+      },
+      "solar_power": {
+        "name": "Потужність від сонця"
+      },
+      "building_power": {
+        "name": "Потужність споживання будинку"
+      },
+      "last_update": {
+        "name": "Останнє оновлення даних"
+      },
+      "solar_energy_today": {
+        "name": "Сонячна енергія сьогодні"
+      },
+      "grid_energy_today": {
+        "name": "Енергія мережі сьогодні"
+      },
+      "building_energy_today": {
+        "name": "Споживання будинку сьогодні"
+      },
+      "power_source": {
+        "name": "Джерело живлення",
+        "state": {
+          "solar": "Сонце",
+          "grid": "Мережа",
+          "battery": "Акумулятор",
+          "idle": "Без навантаження"
+        }
+      }
+    },
+    "binary_sensor": {
+      "connectivity": {
+        "name": "Зв’язок з електростанцією"
+      }
+    }
+  },
+  "device": {
+    "power_station": {
+      "name": "Файна СЕС — {name}"
+    }
+  }
+}

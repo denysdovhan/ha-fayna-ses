@@ -1,0 +1,53 @@
+"""Constants for the public Fayna SES feeds and their data model."""
+
+import re
+
+# Public feed URLs and request validation.
+DASHBOARD_BASE_URL = "https://fayna-ses.funs.net.ua/s"
+DATA_BASE_URL = "https://data-ses.funs.net.ua/s"
+STATION_ID_PATTERN = re.compile(r"[0-9a-f]{32}")
+DASHBOARD_URL_PATTERN = re.compile(
+    rf"{re.escape(DASHBOARD_BASE_URL)}/({STATION_ID_PATTERN.pattern})/?"
+)
+REQUEST_TIMEOUT_SECONDS = 20
+
+# Measurement validation and dashboard thresholds.
+BATTERY_IDLE_POWER_W = 20
+POWER_SOURCE_THRESHOLD_W = 50
+MAX_BATTERY_LEVEL = 100
+
+# Provider connection statuses.
+STATUS_NORMAL = "NORMAL"
+STATUS_PARTIAL_OFFLINE = "PARTIAL_OFFLINE"
+STATUS_ALL_OFFLINE = "ALL_OFFLINE"
+STATUS_NO_DEVICE = "NO_DEVICE"
+CONNECTED_STATUSES = frozenset({STATUS_NORMAL, STATUS_PARTIAL_OFFLINE})
+DISCONNECTED_STATUSES = frozenset({STATUS_ALL_OFFLINE, STATUS_NO_DEVICE})
+CONNECTION_STATUSES = (
+    STATUS_NORMAL,
+    STATUS_PARTIAL_OFFLINE,
+    STATUS_ALL_OFFLINE,
+    STATUS_NO_DEVICE,
+)
+
+# Derived battery states.
+BATTERY_STATE_CHARGING = "charging"
+BATTERY_STATE_DISCHARGING = "discharging"
+BATTERY_STATE_IDLE = "idle"
+BATTERY_STATES = (
+    BATTERY_STATE_CHARGING,
+    BATTERY_STATE_DISCHARGING,
+    BATTERY_STATE_IDLE,
+)
+
+# Derived power sources.
+POWER_SOURCE_SOLAR = "solar"
+POWER_SOURCE_GRID = "grid"
+POWER_SOURCE_BATTERY = "battery"
+POWER_SOURCE_IDLE = "idle"
+POWER_SOURCES = (
+    POWER_SOURCE_SOLAR,
+    POWER_SOURCE_GRID,
+    POWER_SOURCE_BATTERY,
+    POWER_SOURCE_IDLE,
+)

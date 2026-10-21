@@ -1,0 +1,12 @@
+{
+  "domain": "fayna_ses",
+  "name": "Fayna SES",
+  "codeowners": ["@denysdovhan"],
+  "config_flow": true,
+  "documentation": "https://github.com/denysdovhan/ha-fayna-ses",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/denysdovhan/ha-fayna-ses/issues",
+  "requirements": [],
+  "version": "0.0.0"
+}

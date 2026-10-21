@@ -1,0 +1,91 @@
+{
+  "title": "Fayna SES",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Connect a power station",
+        "description": "Enter the shared Fayna SES dashboard URL for your power station.",
+        "data": {
+          "dashboard_url": "Dashboard URL"
+        },
+        "data_description": {
+          "dashboard_url": "A link in the form `https://fayna-ses.funs.net.ua/s/<stationID>`."
+        }
+      }
+    },
+    "error": {
+      "invalid_url": "Enter a valid Fayna SES power station dashboard URL.",
+      "cannot_connect": "Unable to load the power station data. Check the link and try again."
+    },
+    "abort": {
+      "already_configured": "This power station is already configured."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "connection_status": {
+        "name": "Connection status",
+        "state": {
+          "normal": "Connected",
+          "partial_offline": "Partially offline",
+          "all_offline": "Offline",
+          "no_device": "No device"
+        }
+      },
+      "battery_level": {
+        "name": "Battery level"
+      },
+      "battery_state": {
+        "name": "Battery state",
+        "state": {
+          "charging": "Charging",
+          "discharging": "Discharging",
+          "idle": "Idle"
+        }
+      },
+      "grid_power": {
+        "name": "Grid power"
+      },
+      "battery_power": {
+        "name": "Battery power"
+      },
+      "solar_power": {
+        "name": "Solar power"
+      },
+      "building_power": {
+        "name": "Building power"
+      },
+      "last_update": {
+        "name": "Last data update"
+      },
+      "solar_energy_today": {
+        "name": "Solar energy today"
+      },
+      "grid_energy_today": {
+        "name": "Grid energy today"
+      },
+      "building_energy_today": {
+        "name": "Building energy today"
+      },
+      "power_source": {
+        "name": "Power source",
+        "state": {
+          "solar": "Solar",
+          "grid": "Grid",
+          "battery": "Battery",
+          "idle": "Idle"
+        }
+      }
+    },
+    "binary_sensor": {
+      "connectivity": {
+        "name": "Power station connectivity"
+      }
+    }
+  },
+  "device": {
+    "power_station": {
+      "name": "Fayna SES — {name}"
+    }
+  }
+}
