@@ -105,7 +105,7 @@
 - 💥 [Aerial Danger](https://github.com/denysdovhan/ha-aerial-danger) — повідомлення про повітряні загрози.
 - ☁️ [Check Weather](https://github.com/denysdovhan/ha-check-weather) — перевірка погодних умов у прогнозі.
 - 💨 [ЛУН Місто Air](https://github.com/denysdovhan/ha-lun-misto-air) — якість повітря.
-- 🌦️ [УкрГМЦ](https://github.com/denysdovhan/ha-ukr-hmc) — погода, радіація та гідрологія.
+- 🌦️ [УкрГідроМетЦентр](https://github.com/denysdovhan/ha-ukr-hmc) — погода, радіація та гідрологія.
 - ⚡️ [Yasno](https://github.com/denysdovhan/ha-yasno-outages) — графіки відключень електроенергії.
 
 ## Ліцензія
