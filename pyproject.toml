@@ -1,0 +1,49 @@
+[project]
+name = "ha-fayna-ses"
+version = "0.0.0"
+description = "Home Assistant custom component: Fayna SES"
+readme = "readme.md"
+requires-python = ">=3.14.2"
+authors = [{ name = "Denys Dovhan", email = "denysdovhan@gmail.com" }]
+dependencies = ["homeassistant==2026.10.2"]
+
+[dependency-groups]
+dev = [
+  "pre-commit>=4.6.1",
+  "pytest-cov>=7.0.0",
+  "pytest-homeassistant-custom-component>=0.13.316",
+  "ruff==0.16.0",
+]
+
+[tool.ruff]
+target-version = "py313"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+  "CPY001", # License is maintained in license.md
+  "ANN401", # Dynamically typed expressions (typing.Any) are disallowed
+  "D203", # no-blank-line-before-class (incompatible with formatter)
+  "D212", # multi-line-summary-first-line (incompatible with formatter)
+  "COM812", # incompatible with formatter
+  "ISC001", # incompatible with formatter
+  "FIX002", # Line contains TODO, consider resolving an issue
+  "TD003", # Missing issue link on the line following this TODO
+]
+
+[tool.ruff.lint.flake8-pytest-style]
+fixture-parentheses = false
+
+[tool.ruff.lint.pyupgrade]
+keep-runtime-typing = true
+
+[tool.ruff.lint.mccabe]
+max-complexity = 25
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+asyncio_mode = "auto"
+pythonpath = ["."]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*.py" = ["S101", "PLR2004", "INP001"]
