@@ -9,7 +9,7 @@
           "dashboard_url": "Посилання на сторінку електростанції"
         },
         "data_description": {
-          "dashboard_url": "Посилання у форматі `https://fayna-ses.funs.net.ua/s/<станція>`."
+          "dashboard_url": "Посилання у форматі `https://fayna-ses.funs.net.ua/s/станція`."
         }
       }
     },
