@@ -9,7 +9,7 @@
           "dashboard_url": "Dashboard URL"
         },
         "data_description": {
-          "dashboard_url": "A link in the form `https://fayna-ses.funs.net.ua/s/stationID`."
+          "dashboard_url": "Paste the shared dashboard link for your power station."
         }
       }
     },
