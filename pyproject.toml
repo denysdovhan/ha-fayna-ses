@@ -12,7 +12,7 @@ dev = [
   "pre-commit>=4.6.1",
   "pytest-cov>=7.0.0",
   "pytest-homeassistant-custom-component>=0.13.316",
-  "ruff==0.16.0",
+  "ruff==0.17.1",
 ]
 
 [tool.ruff]
