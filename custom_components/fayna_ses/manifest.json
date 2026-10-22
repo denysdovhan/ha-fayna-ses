@@ -1,6 +1,6 @@
 {
   "domain": "fayna_ses",
-  "name": "Fayna SES",
+  "name": "Fayna SES (Файна СЕС)",
   "codeowners": ["@denysdovhan"],
   "config_flow": true,
   "documentation": "https://github.com/denysdovhan/ha-fayna-ses",
