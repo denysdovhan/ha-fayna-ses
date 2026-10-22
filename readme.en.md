@@ -35,8 +35,6 @@ Your generosity will help me maintain and develop more projects like this one.
 
 ## Installation
 
-Requires Home Assistant **2026.2.3+**. Integration icons require **2026.3**.
-
 Add the custom repository to HACS, install the integration, and restart Home Assistant.
 
 [![Add to HACS][hacs-install-image]][hacs-install-url]
