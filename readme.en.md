@@ -60,7 +60,7 @@ Add the custom repository to HACS, install the integration, and restart Home Ass
 
 ## Usage
 
-Click the button and paste your public station link: `https://fayna-ses.funs.net.ua/s/…`.
+Click the button, select a station from the list, or choose Custom URL to enter a public station link: `https://fayna-ses.funs.net.ua/s/…`.
 
 [![Add Fayna SES][install-image]][install-url]
 

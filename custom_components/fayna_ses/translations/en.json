@@ -4,7 +4,17 @@
     "step": {
       "user": {
         "title": "Connect a power station",
-        "description": "Enter the shared Fayna SES dashboard URL for your power station.",
+        "description": "Select a station, or choose “Custom URL” to add a station that is not listed.",
+        "data": {
+          "dashboard_url": "Dashboard"
+        },
+        "data_description": {
+          "dashboard_url": "Choose a station or “Custom URL”.\n\nIs your station missing? [Submit its public dashboard link]({report_url}) to add it to the list."
+        }
+      },
+      "custom": {
+        "title": "Connect a power station",
+        "description": "Paste the public dashboard URL for your station. [Submit this station]({report_url}) to add it to the list.",
         "data": {
           "dashboard_url": "Dashboard URL"
         },
@@ -86,6 +96,18 @@
   "device": {
     "power_station": {
       "name": "Fayna SES — {name}"
+    }
+  },
+  "selector": {
+    "dashboard": {
+      "options": {
+        "cc5a340c80f5ce04158291f4aac365a6": "HOA №2, Building 1, Entrance 5",
+        "366ae83e5947dbd6b6d30372f916a71f": "HOA №4, Building 9, Entrance 8",
+        "ac15fb3d463174465df3bedcb30be9cc": "HOA №7, Building 24, Entrance 2",
+        "91d435460f4c38741aa0ee07808a5960": "HOA №6, Building 18, Entrance 7",
+        "e64791f0a8f89a5400db11c0f8c82c57": "HOA №6, Building 18, Entrance 8 - Elevator",
+        "custom": "Custom URL…"
+      }
     }
   }
 }
