@@ -18,6 +18,12 @@
 
 Monitor [Fayna SES][fayna-ses] power stations in [Home Assistant][home-assistant]: battery, power flows, daily energy, and connectivity. Connect using a public station dashboard link. No account required.
 
+## About the project
+
+**Fayna SES** is an energy independence and backup power project implemented by residents and KAN Development at the [Fayna Town](https://faynatown.com.ua/) residential complex in Kyiv. Watch the project video:
+
+[![Watch the Fayna SES video on YouTube](https://img.youtube.com/vi/989Uze7SJAc/hqdefault.jpg)](https://youtu.be/989Uze7SJAc)
+
 ## Sponsorship
 
 Your generosity will help me maintain and develop more projects like this one.
@@ -54,7 +60,7 @@ Add the custom repository to HACS, install the integration, and restart Home Ass
 
 ## Usage
 
-Click the button and paste your public station link: `https://fayna-ses.funs.net.ua/s/…`.
+Click the button, select a station from the list, or choose Custom URL to enter a public station link: `https://fayna-ses.funs.net.ua/s/…`.
 
 [![Add Fayna SES][install-image]][install-url]
 
