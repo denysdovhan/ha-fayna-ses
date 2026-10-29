@@ -111,6 +111,7 @@
 - 💨 [ЛУН Місто Air](https://github.com/denysdovhan/ha-lun-misto-air) — якість повітря.
 - 🌦️ [УкрГідроМетЦентр](https://github.com/denysdovhan/ha-ukr-hmc) — погода, радіація та гідрологія.
 - ⚡️ [Yasno](https://github.com/denysdovhan/ha-yasno-outages) — графіки відключень електроенергії.
+- 💧 [Київводоканал](https://github.com/denysdovhan/ha-kyiv-vodokanal) — показники лічильників води, рахунки, платежі та тарифи.
 
 ## Ліцензія
 

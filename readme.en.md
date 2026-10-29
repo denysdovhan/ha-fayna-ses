@@ -111,6 +111,7 @@ See [contributing.md](./contributing.md) for setup and checks.
 - 💨 [LUN Misto Air](https://github.com/denysdovhan/ha-lun-misto-air) — air quality.
 - 🌦️ [Ukrainian Hydrometeorological Center](https://github.com/denysdovhan/ha-ukr-hmc) — weather, radiation, and hydrology.
 - ⚡️ [Yasno](https://github.com/denysdovhan/ha-yasno-outages) — electricity outage schedules.
+- 💧 [Kyiv Vodokanal](https://github.com/denysdovhan/ha-kyiv-vodokanal) — water meter readings, bills, payments, and tariffs.
 
 ## License
 
