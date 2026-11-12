@@ -4,7 +4,7 @@
     "step": {
       "user": {
         "title": "Connect a power station",
-        "description": "Select a station, or choose “Custom URL” to add a station that is not listed.",
+        "description": "Select a station, or choose “Custom URL” to add a station that is not listed. The entrance in parentheses is where the station is installed.",
         "data": {
           "dashboard_url": "Dashboard"
         },
@@ -101,15 +101,15 @@
   "selector": {
     "dashboard": {
       "options": {
-        "cc5a340c80f5ce04158291f4aac365a6": "HOA №2, Building 1, Entrance 5 (building 1, entrances 2-5)",
-        "366ae83e5947dbd6b6d30372f916a71f": "HOA №4, Building 9, Entrance 8 (building 9, entrances 4-8)",
-        "ac15fb3d463174465df3bedcb30be9cc": "HOA №7, Building 24, Entrance 2 (building 24, entrances 1-2)",
-        "91d435460f4c38741aa0ee07808a5960": "HOA №6, Building 18, Entrance 7 (building 18, entrances 5-8)",
-        "e64791f0a8f89a5400db11c0f8c82c57": "HOA №6, Building 18, Entrance 8 - Elevator (building 18, entrance 8 elevator only)",
-        "dee052e69e8fa101de2f002f53a964e2": "HOA №6, Building 19, Entrance 1 (entire building 19)",
-        "8fd92183d607f5990c7e1dac509ec68a": "HOA №3, Building 8, Entrance 5 (building 8, entrances 3-5)",
-        "4f655c36051a572e646a09bd6dc67d66": "HOA №3, Building 7, Entrance 8 (building 7, entrances 5-8)",
-        "7cfb64881a9fa84997bf7e1bdb8e5071": "HOA №7, Building 24, Entrance 5 (building 24, entrances 4-5)",
+        "cc5a340c80f5ce04158291f4aac365a6": "HOA №2, Building 1, Entrances 2-5 (Entrance 5)",
+        "366ae83e5947dbd6b6d30372f916a71f": "HOA №4, Building 9, Entrances 4-8 (Entrance 8)",
+        "ac15fb3d463174465df3bedcb30be9cc": "HOA №7, Building 24, Entrances 1-2 (Entrance 2)",
+        "91d435460f4c38741aa0ee07808a5960": "HOA №6, Building 18, Entrances 5-8 (Entrance 7)",
+        "e64791f0a8f89a5400db11c0f8c82c57": "HOA №6, Building 18, Elevator (Entrance 8)",
+        "dee052e69e8fa101de2f002f53a964e2": "HOA №6, Building 19, Entire Building (Entrance 1)",
+        "8fd92183d607f5990c7e1dac509ec68a": "HOA №3, Building 8, Entrances 3-5 (Entrance 5)",
+        "4f655c36051a572e646a09bd6dc67d66": "HOA №3, Building 7, Entrances 5-8 (Entrance 8)",
+        "7cfb64881a9fa84997bf7e1bdb8e5071": "HOA №7, Building 24, Entrances 4-5 (Entrance 5)",
         "custom": "Custom URL…"
       }
     }
